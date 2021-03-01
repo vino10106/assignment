@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+}
+body
+{
+    background-color:lightblue;
+    background-size:cover;
+    margin-top:40px;
+    color:white;
+}
+.regform{
+    position:relative;
+    margin-left:20%;
+    top:-10px;
+    line-height:30px;
+
+}
+.a1{
+    position:relative;
+    margin-left:20%;
+    top:-10px;
+    line-height:20px;
+}
+.demo{
+    margin:auto;
+}
+form{
+    padding:10px;
+    }
+#name{
+    width:100%;
+    height:70px;
+    margin-left:20%;
+}
+.name{
+    padding-left:20%;
+    top:-10px;
+    width:150px;
+    color:white;
+    font-size:20px;
+    font-weight:510;
+}
+#firstname{
+    position:relative;
+    margin-left:15%;
+    top:-30px;
+    line-height:40px;
+    padding:0px 15px;
+}
+#lastname{
+    position:relative;
+    margin-left:32%;
+    top:-75px;
+    line-height:40px;
+    padding:0 20px;
+}
+#email{
+    position:relative;
+    left:35%;
+    top:-27px;
+    line-height:40px;
+    padding:0px 137px;
+
+}
+#first{
+    position:relative;
+    left:35%;
+    top:-28px;
+    line-height:40px;
+    padding:0px 30px;
+    font-size:18px;
+}
+#second{
+    position:relative;
+    left:37%;
+    top:-30px;
+    line-height:40px;
+    padding:0 35px;
+}
+#third{
+    position:relative;
+    left:39%;
+    top:-30px;
+    line-height:40px;
+    padding:0 35px;
+}
+#msgsub{
+    position:relative;
+    left:35%;
+    top:-30px;
+    line-height:40px;
+    padding:0px 110px;
+    font-size:18px;
+}
+#multiLineInput{
+    position:relative;
+    left:35%;
+    top:-30px;
+    line-height:40px;
+    padding:0px 0px;
+    font-size:18px;
+}
+#nameform{
+    position:relative;
+    left:35%;
+    top:-30px;
+    padding:10px 22px;
+}

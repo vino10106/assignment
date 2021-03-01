@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="ass3.css">
+    <script src="ass3.js"></script>
+</head>
+<body>
+    <div class="regform"><h1>Contact form</h1></div><br>
+    <div class="a1"><p> Please fill in your information and we'll be sending your order in no time</p>
+    </div>
+    <div class="demo">
+        <form action="sample2.html" onsubmit="return validateform()">
+            <div id="name">
+                <h3>Your Name</h3>
+                <input id="firstname" type="text" name="first_name" placeholder="First Name" required><br>
+                <input id="lastname" type="text" name="last_name" placeholder="Last Name" required>
+                </div>
+            <div>
+            <h2 class="name">Your Email</h2>
+            <input id="email" type="text"name="email" placeholder="@gmail.com">
+            </div>
+
+            <h2 class="name">Phone</h2>
+            <input id="first" type="text" name="first_code" size='3' placeholder="###" required>
+            <input id="second" type="text" name="second_code" size='3' placeholder="###" required>
+            <input id="third" type="text" name="third_code" size='4' placeholder="####" required>
+
+            <h2 class="name" style="text-align:left">message subject*</h2>
+            <input id="msgsub" type="text" name="msgsub1" required>
+            <h2 class='name'>message*</h2>
+            <textarea rows="3" cols="43" id="multiLineInput" name="demo1" required></textarea>
+            <hr></hr>
+            <br>
+            <br><br>
+            <input id="nameform" type="submit" >
+
+            </form>
+            </div>
+
+</body>
+</html>

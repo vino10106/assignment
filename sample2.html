@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+      span{
+        margin-left:1opx;
+        top:-10px;
+        background-color: darkkhaki;
+      }
+    </style>
+
+    
+</head>
+
+<body onload="isload()" class = "d-flex flex-column h-100 bg-info">
+    <div class = "container-fluid text-white">
+      <div class = "row d-flex">
+        
+        <div class = "col-12 d-flex justify-content-start align-items-center">
+          <h3>   Thank you for submitting the form</h3>
+        </div>
+        <div class = "demo3 align-items-center">
+      
+        </div>
+      </div>
+      <div class = "demo2">
+        <div class = "demo3">
+          FIRST NAME : 
+        </div>
+        <span name = "first_name" class = "demo3"></span>
+      </div>
+      <div class = "demo2">
+        <div class = "demo3">
+           LAST NAME : 
+        </div>
+        <span name = "last_name" class = "demo3"></span>
+      </div>
+      <div class = "demo2">
+        <div class = "demo3">
+          EMAIL : 
+        </div>
+        <span name = "email" class = "demo3"></span>
+      </div>
+      <div class = "demo2">
+        <div class = "demo3">
+           PHONE : 
+        </div>
+        <div class = "demo3">
+          <span name = "first_code"></span>-<span name = "second_code"></span>-<span name = "third_code"></span>
+        </div>
+      </div>
+      <div class = "demo2">
+        <div class = "demo3">
+          MESSAGE SUBJECT : 
+        </div>
+        <div class = "demo3">
+          <span name = "msgsub1"></span>
+        </div>
+      </div>
+      <div class = "demo2">
+        <div class = "demo3">
+          MESSAGE : 
+        </div>
+      <div class="demo">
+        <span name="demo1"></span>
+
+      </div>
+    </div>
+    <script>
+      const url = new URL(window.location.href);
+      let spans = document.querySelectorAll("span");
+
+      function isload() {
+        // console.log(spans);
+        spans.forEach((ele) => {
+          ele.innerText = url.searchParams.get(`${ele.attributes.name.value}`);
+        });
+      }
+  
+     </script>
+     </body>
+</html>
